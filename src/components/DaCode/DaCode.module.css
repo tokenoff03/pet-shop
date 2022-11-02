@@ -1,0 +1,81 @@
+.DaCode {
+    padding-top: 123px;
+    padding-bottom: 149px;
+}
+
+.leftSide {
+    width: 45%;
+}
+
+.rightSide {
+    padding-bottom: 39px;
+    padding-left: 5px;
+    padding-top: 20px;
+    display: flex;
+    width: 55%;
+    background: #FFFFFF;
+    box-shadow: 0px 36px 39px rgba(7, 0, 59, 0.04);
+    border-radius: 16px;
+    
+}
+
+.descript {
+    margin-top: 20px;
+}
+.descript span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 182.02%;
+    /* or 36px */
+
+
+    /* black */
+
+    color: #292525;
+}
+
+.descript p {
+    width: 224px;
+    line-height: 162.2%;
+    /* or 26px */
+
+    text-align: justify;
+
+    color: #656689;
+
+    opacity: 0.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.descript button {
+    width: 39.77px;
+    height: 39.77px;
+    border-radius: 20px;
+    border: 1px solid #FF5B2E;
+    background: #FF5B2E;
+    box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leftSide p {
+    width: 362px;
+}
+
+.h2 {
+    line-height: 64px;
+    color: #292525;
+}
+
+.leftSide button {
+    margin-top: 51px;
+}

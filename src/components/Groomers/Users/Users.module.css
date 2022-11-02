@@ -1,0 +1,29 @@
+.userInfo {
+    position: relative;
+    width: 270px;
+    height: 298px;
+    background: #FFE4C8;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: end;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000958;
+}
+
+.profession {
+    line-height: 14px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.userInfo img {
+    position: absolute;
+    bottom: 130px;
+}

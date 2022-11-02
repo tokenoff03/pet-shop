@@ -1,0 +1,45 @@
+.Services {
+    background: rgba(255, 239, 222, 0.5);
+    height: 900px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.title img {
+    position: relative;
+    Width: 70px;
+    Height: 75px;
+    top: 13px;
+}
+
+.ul {
+    display: flex;
+    gap: 34px;
+    padding: 0px;
+    width: 100%;
+}
+
+.ul li {
+    margin-top: 95px;;
+}
+.ul li:nth-child(2n+1){
+    margin-top: 40px;
+}
+
+.buttonsBlock {
+    position: relative;
+}
+
+.buttonsBlock button {
+    margin-top: 75px;
+}
+.buttonsBlock img {
+    position: absolute;
+    left: 225px;
+    top: 94px;
+}

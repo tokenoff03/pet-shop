@@ -1,0 +1,45 @@
+.block p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 172px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 262px;
+    align-items: center;
+    background: #FFFAF5;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    border-radius: 44px;
+}
+
+.orange{
+    background: #FB901A;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    cursor: pointer;
+}
+
+.orange .span, .orange .p {
+    color:white !important;
+}
+
+.block img {
+    width: 63px;
+    height: 63px;
+}
+
+.block span {
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656689;
+    margin-top: 30px;
+}
+
+

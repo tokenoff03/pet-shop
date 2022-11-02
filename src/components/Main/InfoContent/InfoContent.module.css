@@ -1,0 +1,24 @@
+.content {
+    width: 225px;
+    height: 78px;
+    
+}
+
+.InfoContent {
+    margin-left: 38px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content span {
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    color: #FFFFFF;
+}

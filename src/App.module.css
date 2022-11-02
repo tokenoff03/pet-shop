@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito+Sans&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito+Sans&family=Slackey&display=swap');
+
+.App {
+  background: #FFFAF5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.middle {
+  align-items: center;
+
+}
+
+.theme {
+  font-family: 'Slackey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #000958;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Slackey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  /* or 122% */
+
+
+  color: #000958;
+}
+
+.btn {
+  width: 142px;
+  height: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF5B2E;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  border: 1px solid #FF5B2E;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.headTitle {
+  display: flex;
+  font-family: 'Slackey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 27px;
+  text-align: center;
+  
+}
+
+p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #656689;
+}

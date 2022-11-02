@@ -1,0 +1,23 @@
+.Footer {
+    background: #FFF4EA;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mainInfo {
+    width: 40%;
+}
+
+.mainInfo p {
+    margin-top: 44px;
+}
+
+.social {
+    display: flex;
+    margin-top: 44px;
+}
+
+.hr {
+    border-bottom: 2px solid #EEDDCE;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.FooterInfo {
+    width: 20%;
+}
+
+.FooterInfo span {
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+
+    color: #000958;
+}
+
+.FooterInfo ul {
+    padding: 0;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.FooterInfo li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    /* or 271% */
+
+
+    color: #656689;
+}

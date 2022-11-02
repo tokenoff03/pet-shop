@@ -1,0 +1,28 @@
+.Groomers {
+    background: #FFF4EA;
+    height: 853px;
+}
+
+.h2 {
+    line-height: 62px;
+    margin-top: 72px;
+}
+
+.content {
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.middle {
+    align-items: center;
+    position: relative;
+}
+
+.Groomers button {
+    margin-top: 80px;
+}
+
+.icons {
+    position: absolute;
+    top: 54px;
+}
