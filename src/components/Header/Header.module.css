@@ -21,8 +21,10 @@
     font-size: 16px;
     line-height: 14px;
     color: #5E6085;
+    text-decoration: none;
 }
-.active {
+
+.ul li a.active  {
     color: #000958;
 }
 

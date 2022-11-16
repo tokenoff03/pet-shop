@@ -1,5 +1,6 @@
-import hs from './Header.module.css'
-import as from '../../App.module.css'
+import hs from "./Header.module.css";
+import as from "../../App.module.css";
+import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <div className="Header">
@@ -7,13 +8,44 @@ function Header() {
         <span className={as.headTitle}>Mew</span>
         <nav>
           <ul className={hs.ul}>
-            <li><a href='#' className={hs.active}>Home</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Services</a></li>
-            <li><a href='#'>Facilities</a></li>
+            <li>
+              <NavLink
+                to="/"
+                className={(navData) => (navData.isActive ? hs.active : "")}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                className={(navData) => (navData.isActive ? hs.active : "")}
+              >
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/services"
+                className={(navData) => (navData.isActive ? hs.active : " ")}
+              >
+                Services
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/facilities"
+                className={(navData) => (navData.isActive ? hs.active : " ")}
+              >
+                Facilities
+              </NavLink>
+            </li>
           </ul>
         </nav>
-        <button className={hs.headerButton}>Sign up</button>
+
+        <NavLink to="/sign-in">
+          <button className={hs.headerButton}>Sign in</button>
+        </NavLink>
       </div>
     </div>
   );

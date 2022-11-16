@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito+Sans&family=Slackey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Nunito+Sans&family=Slackey&display=swap');
 
+
 .App {
   background: #FFFAF5;
   margin: 0;
@@ -93,4 +94,16 @@ p {
   font-size: 16px;
   line-height: 30px;
   color: #656689;
+}
+
+.SignIn {
+  width: 20%;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 150px;
+}
+
+.signButton {
+  width: 100%;
 }
